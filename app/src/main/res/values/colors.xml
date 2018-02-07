@@ -5,4 +5,5 @@
     <color name="colorAccent">#FFFFFF</color>
     <color name="background_color">#29B6F6</color>
     <color name="background_relative_background_social_media">#ffffff</color>
+    <color name="background_udacity_image">#ffffff</color>
 </resources>

@@ -20,7 +20,7 @@
         android:src="@drawable/udacity_logo_top_of_application"
         android:scaleType="center"
 
-        android:background="#ffffff"
+        android:background="@color/background_udacity_image"
 
         />
 
