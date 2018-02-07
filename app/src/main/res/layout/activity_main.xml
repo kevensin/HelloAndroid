@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+
+
+
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity_logo_top_of_application"
+        android:scaleType="center"
+
+        android:background="#ffffff"
+
+        />
+
+    <ImageView
+        android:id="@+id/office_photos_transition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/organization_location"
+        android:autoLink="map"
+
+        android:textSize="@dimen/small_text_size"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/location_128"
+        android:paddingLeft="@dimen/padding_left_for_text_view"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:layout_marginTop="@dimen/margin_for_text_view"
+        android:layout_marginBottom="@dimen/margin_for_text_view"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/organization_phone_number"
+        android:autoLink="phone"
+
+
+        android:textSize="@dimen/small_text_size"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/telephone_128"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:paddingLeft="@dimen/padding_left_for_text_view"
+        android:layout_marginBottom="@dimen/margin_for_text_view"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/organization_website"
+        android:autoLink="web"
+
+        android:textSize="@dimen/small_text_size"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/internet_128"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:paddingLeft="@dimen/padding_left_for_text_view"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_relative_background_social_media"
+        android:paddingTop="@dimen/padding_relative_layout_social_media"
+        android:paddingBottom="@dimen/padding_relative_layout_social_media"
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/youTube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/youtube_128"
+
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/padding_between_social_media_icons"
+            android:paddingRight="@dimen/padding_between_social_media_icons"
+            android:onClick="udacityYouTube"
+            />
+
+        <ImageView
+            android:id="@+id/google_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google_plus_128"
+            android:layout_toRightOf="@id/youTube"
+
+            android:onClick="udactiyGooglePlus"
+
+            />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook_128"
+            android:layout_toRightOf="@id/google_plus"
+
+            android:paddingLeft="@dimen/padding_between_social_media_icons"
+            android:onClick="udacityFacebook"
+
+            />
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instagram_128"
+            android:layout_toRightOf="@id/facebook"
+
+            android:paddingLeft="@dimen/padding_between_social_media_icons"
+            android:onClick="udacityInstagram"
+            />
+
+        <ImageView
+            android:id="@+id/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/medium_128"
+            android:layout_toLeftOf="@id/youTube"
+
+            android:onClick="udacityMedium"
+            />
+
+        <ImageView
+            android:id="@+id/linked_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linkedin_128"
+            android:layout_toLeftOf="@id/medium"
+
+            android:paddingRight="@dimen/padding_between_social_media_icons"
+            android:onClick="udacityLinkedIn"
+            />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter_128"
+            android:layout_toLeftOf="@id/linked_in"
+
+            android:paddingRight="@dimen/padding_between_social_media_icons"
+            android:onClick="udacityTwitter"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

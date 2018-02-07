@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="padding_left_for_text_view">15dp</dimen>
+    <dimen name="margin_for_text_view">15dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="padding_between_social_media_icons">5dp</dimen>
+    <dimen name="padding_relative_layout_social_media">5dp</dimen>
+</resources>
